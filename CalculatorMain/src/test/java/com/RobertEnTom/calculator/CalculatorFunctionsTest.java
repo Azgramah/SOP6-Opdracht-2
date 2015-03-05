@@ -46,7 +46,7 @@ public class CalculatorFunctionsTest {
         int x = 1;
         int y = 1;
         int expResult = 2;
-        int result = CalculatorFunctions.Add(x, y);
+        int result = CalculatorFunctions.add(x, y);
         assertEquals(expResult, result);
     }
 
@@ -59,7 +59,7 @@ public class CalculatorFunctionsTest {
         int x = 1;
         int y = 1;
         int expResult = 0;
-        int result = CalculatorFunctions.Substract(x, y);
+        int result = CalculatorFunctions.substract(x, y);
         assertEquals(expResult, result);
     }
 
@@ -72,7 +72,7 @@ public class CalculatorFunctionsTest {
         int x = 2;
         int y = 2;
         int expResult = 4;
-        int result = CalculatorFunctions.Multiply(x, y);
+        int result = CalculatorFunctions.multiply(x, y);
         assertEquals(expResult, result);
     }
     
@@ -82,7 +82,7 @@ public class CalculatorFunctionsTest {
         int x = 2;
         int y = 2;
         int expResult = 1;
-        int result = CalculatorFunctions.Divide(x, y);
+        int result = CalculatorFunctions.divide(x, y);
         assertEquals(expResult, result);
     }
     

@@ -11,31 +11,29 @@ package com.RobertEnTom.calculator;
  */
 public class CalculatorFunctions 
 {
-    public static int Add(int x, int y)
+    private CalculatorFunctions()
     {
-        int sum = x + y;
-        System.out.println(sum);
-        return sum;
+        
     }
     
-    public static int Substract(int x, int y)
+    public static int add(int x, int y, int z)
     {
-        int sum = x - y;
-        System.out.println(sum);
-        return sum;
+        //hallo
+        return x + y;
     }
     
-    public static int Multiply(int x, int y)
+    public static int substract(int x, int y)
     {
-        int sum = x * y;
-        System.out.println(sum);
-        return sum;
+        return x - y;
     }
     
-    public static int Divide(int x, int y)
+    public static int multiply(int x, int y)
     {
-        int sum = x / y;
-        System.out.println(sum);
-        return sum;
+        return x * y;
+    }
+    
+    public static int divide(int x, int y)
+    {
+        return x / y;
     }
 }
