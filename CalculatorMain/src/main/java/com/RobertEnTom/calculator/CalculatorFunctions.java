@@ -16,7 +16,7 @@ public class CalculatorFunctions
         
     }
     
-    public static int add(int x, int y, int z)
+    public static int add(int x, int y)
     {
         //hallo
         return x + y;
