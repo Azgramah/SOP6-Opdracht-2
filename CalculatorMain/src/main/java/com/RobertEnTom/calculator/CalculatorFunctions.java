@@ -18,7 +18,7 @@ public class CalculatorFunctions
     
     public static int add(int x, int y)
     {
-        return x + y;
+        return 0;
     }
     
     public static int substract(int x, int y)
