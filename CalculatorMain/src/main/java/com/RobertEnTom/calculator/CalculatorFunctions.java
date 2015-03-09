@@ -16,9 +16,16 @@ public class CalculatorFunctions
         
     }
     
+    /**
+     * Adds one number to the other
+     * @param x variable one.
+     * @param y this variable is added to variable one.
+     * @returns the addition of variable one and variable two.
+     */
     public static int add(int x, int y)
     {
         return 0;
+        //return x + y;
     }
     
     public static int substract(int x, int y)
