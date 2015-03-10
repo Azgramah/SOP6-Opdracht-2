@@ -18,7 +18,7 @@ public class CalculatorFunctions
     
     /**
      * Adds one number to the other
-     * @param x variable one.
+     * @param x variable.
      * @param y this variable is added to variable one.
      * @returns the addition of variable one and variable two.
      */
