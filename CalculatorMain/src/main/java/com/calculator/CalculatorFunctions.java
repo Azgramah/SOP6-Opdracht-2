@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.RobertEnTom.calculator;
+package com.calculator;
 
 /**
  *
@@ -24,8 +24,7 @@ public class CalculatorFunctions
      */
     public static int add(int x, int y)
     {
-        return 0;
-        //return x + y;
+        return x + y;
     }
     
     public static int substract(int x, int y)
