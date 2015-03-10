@@ -1,0 +1,65 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.calculator;
+
+import static org.junit.Assert.*;
+
+/**
+ *
+ * @author Robert
+ */
+public class CalculatorFunctionsTest {
+   
+    /**
+     * Test of Add method, of class CalculatorFunctions.
+     */
+    @org.junit.Test
+    public void testAdd() {
+        System.out.println("Add");
+        int x = 1;
+        int y = 1;
+        int expResult = 2;
+        int result = CalculatorFunctions.add(x, y);
+        assertEquals(expResult, result);
+    }
+
+    /**
+     * Test of Substract method, of class CalculatorFunctions.
+     */
+    @org.junit.Test
+    public void testSubstract() {
+        System.out.println("Substract");
+        int x = 1;
+        int y = 1;
+        int expResult = 0;
+        int result = CalculatorFunctions.substract(x, y);
+        assertEquals(expResult, result);
+    }
+
+    /**
+     * Test of Multiply method, of class CalculatorFunctions.
+     */
+    @org.junit.Test
+    public void testMultiply() {
+        System.out.println("Multiply");
+        int x = 2;
+        int y = 2;
+        int expResult = 4;
+        int result = CalculatorFunctions.multiply(x, y);
+        assertEquals(expResult, result);
+    }
+    
+        @org.junit.Test
+    public void testDivide() {
+        System.out.println("Divide");
+        int x = 2;
+        int y = 2;
+        int expResult = 1;
+        int result = CalculatorFunctions.divide(x, y);
+        assertEquals(expResult, result);
+    }
+    
+}
