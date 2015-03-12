@@ -32,6 +32,12 @@ public class CalculatorFunctions
         else return y;
     }
     
+    /**
+     * Substract one number from the other
+     * @param x variable one.
+     * @param y this variable is removed from variable one.
+     * @returns the addition of variable one and variable two.
+     */
     public static int substract(int x, int y)
     {
         if(x != 0)
@@ -42,11 +48,23 @@ public class CalculatorFunctions
         else return -y;
     }
     
+    /**
+     * Multiplies one number to the other
+     * @param x variable one.
+     * @param y this variable is multiplied with variable one.
+     * @returns the addition of variable one and variable two.
+     */
     public static int multiply(int x, int y)
     {
         return x * y;
     }
     
+    /**
+     * Divides one number through the other
+     * @param x variable one.
+     * @param y this variable divides variable one through itself.
+     * @returns the addition of variable one and variable two.
+     */
     public static int divide(int x, int y)
     {
         return x / y;
