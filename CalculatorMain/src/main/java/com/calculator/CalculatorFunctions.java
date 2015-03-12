@@ -24,12 +24,22 @@ public class CalculatorFunctions
      */
     public static int add(int x, int y)
     {
-        return x + y;
+        if(x != 0)
+        {
+            return x + y;   
+        }
+        
+        else return y;
     }
     
     public static int substract(int x, int y)
     {
-        return x - y;
+        if(x != 0)
+        {
+            return x - y;   
+        }
+        
+        else return -y;
     }
     
     public static int multiply(int x, int y)
